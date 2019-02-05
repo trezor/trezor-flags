@@ -34,8 +34,8 @@ Usage
 Functions
 -----
 
-#### isFlagPresent(flag: number, trezorSavedFlags: number): boolean
-- Both params are numbers. flag variable represents index from TREZOR_FLAG_KEYS. trezorSavedFlags represents flags field from trezor features. 
+#### isFlagPresent(flag: string, trezorSavedFlags: number): boolean
+- Flag variable represents one of possible flags defined in TREZOR_FLAG_KEYS array. TrezorSavedFlags is number (binary mask) which represents flags field from trezor features. 
 
-#### setFlag(flag: number, trezorSavedFlags: number): number 
+#### setFlag(flag: string, trezorSavedFlags: number): number 
 - Returns representation of new combinantions of flag that might be saved into device with applyFlags call
