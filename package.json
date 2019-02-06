@@ -17,9 +17,6 @@
     "clean": "rimraf lib",
     "build": "yarn run clean && npx rollup -c rollup.config.js"
   },
-  "dependencies": {
-    "codecov": "^3.1.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
@@ -28,6 +25,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-jest": "^23.2.0",
+    "codecov": "^3.1.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-import-resolver-babel-module": "5.0.0-beta.1",
