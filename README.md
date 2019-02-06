@@ -1,6 +1,8 @@
 trezor-flags
 =========
 
+[![codecov](https://codecov.io/gh/mroz22/trezor-flags/branch/master/graph/badge.svg)](https://codecov.io/gh/mroz22/trezor-flags)
+
 This library provides interface for working with flags stored in trezor devices. 
 
 Commands
