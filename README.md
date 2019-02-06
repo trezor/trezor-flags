@@ -29,13 +29,13 @@ or
 Usage
 -----
 
-```import { flags, TREZOR_FLAG_KEYS } from 'trezor-flags';```
+```import { Flags, TREZOR_FLAG_KEYS } from 'trezor-flags';```
 
 Functions
 -----
 
-#### isFlagPresent(flag: string, trezorSavedFlags: number): boolean
+#### Flags.isFlagPresent(flag: string, trezorSavedFlags: number): boolean
 - Flag variable represents one of possible flags defined in TREZOR_FLAG_KEYS array. TrezorSavedFlags is number (binary mask) which represents flags field from trezor features. 
 
-#### setFlag(flag: string, trezorSavedFlags: number): number 
+#### Flags.setFlag(flag: string, trezorSavedFlags: number): number 
 - Returns representation of new combinantions of flag that might be saved into device with applyFlags call
